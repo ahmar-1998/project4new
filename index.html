@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="main1">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img  class="image" src="kisspng-logo-transparency-brand-product-design-scalable-ve-kendy-logo-svg-vector-amp-png-transparent-vect-5b91f377c57c85.6366660415362917038089.png" alt="">
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closemenu()"></i>
+            <ul>
+                <a href=""> <li>HOME</li></a>
+                <a href=""> <li>ABOUT</li></a>
+                <a href=""> <li>MENU</li></a>
+            </ul>
+            <button type="button" class="btn btn-warning">Feedback</button>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </div>
+    <div class="title">
+        <h1>There is <span>no  Sincerer Love  <br> then the  Love </span> of Food</h1>
+        <button type="button" class="btn btn-warning">Explore</button>
+    </div>
+    <div class="vertical-bar">
+        <div class="search">
+            <i class="fa fa-list"></i>
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            
+        </div>
+    </div>
+</div>
+<script>
+    var show = document.getElementById("nav-links");
+    function showmenu(){
+        show.style.right = "0";
+    }
+    function closemenu(){
+        show.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
